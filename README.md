@@ -51,7 +51,7 @@ Content-Type: application/json
 
 ## Инструкция по запуску
 ```bash
-git clone https://your-repo-url.git
+git clone https://github.com/evgenkry/shorturler_app.git
 cd shorturler
 docker-compose up --build
 ```
