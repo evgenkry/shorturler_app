@@ -30,7 +30,14 @@ Content-Type: application/json
   "password": "secret"
 }
 ```
-### 2. Создание короткой ссылки
+### 2. Получение токена
+```http
+POST /auth/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=&username=testuser&password=secret&scope=&client_id=&client_secret=
+```
+### 3. Создание короткой ссылки
 ```http
 POST /links/shorten
 Authorization: Bearer <your_token>
