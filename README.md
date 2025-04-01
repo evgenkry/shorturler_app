@@ -100,5 +100,5 @@ docker-compose run --rm app pytest --cov=app --cov-report=term-missing
 ### Результаты тестов
 Приведены ниже, а также в файле results.txt
 
-![Результаты тестов](images/results.png)
+![Результаты тестов](results.png)
 
