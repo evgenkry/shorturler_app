@@ -1,7 +1,7 @@
 # Shorturler API
 
 Сервис для сокращения ссылок с поддержкой регистрации, авторизации и персонального управления ссылками. 
-Сервис развернут на render.com: https://shorturler-app.onrender.com 
+Сервис развернут на render.com: https://shorturler-app.onrender.com (открывается под VPN)
 
 ## Описание API
 
