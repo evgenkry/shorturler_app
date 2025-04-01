@@ -100,41 +100,5 @@ docker-compose run --rm app pytest --cov=app --cov-report=term-missing
 ### Результаты тестов
 Приведены ниже, а также в файле results.txt
 
-============================= test session starts ==============================
-platform linux -- Python 3.9.21, pytest-7.2.2, pluggy-1.5.0
-rootdir: /app
-plugins: cov-3.0.0, anyio-4.9.0, asyncio-0.21.0, metadata-3.1.1, html-3.2.0
-asyncio: mode=strict
-collected 17 items
-
-app/tests/test_crud_extra.py ........                                    [ 47%]
-app/tests/test_functional.py .                                           [ 52%]
-app/tests/test_load.py .                                                 [ 58%]
-app/tests/test_main_extra.py ...                                         [ 76%]
-app/tests/test_unit.py ....                                              [100%]
-
-=============================== warnings summary ===============================
----------- coverage: platform linux, python 3.9.21-final-0 -----------
-Name                           Stmts   Miss  Cover
---------------------------------------------------
-app/config.py                     10      0   100%
-app/crud.py                       64      1    98%
-app/database.py                    7      0   100%
-app/endpoints/auth.py             66     23    65%
-app/endpoints/links.py            72     35    51%
-app/initial_db.py                  4      0   100%
-app/main.py                       15      1    93%
-app/models.py                     22      0   100%
-app/schemas.py                    43      0   100%
-app/tests/conftest.py             42      0   100%
-app/tests/test_crud_extra.py      77      0   100%
-app/tests/test_functional.py      75      0   100%
-app/tests/test_load.py            40      1    98%
-app/tests/test_main_extra.py      28      2    93%
-app/tests/test_unit.py            30      0   100%
-app/utils/cache.py                15      1    93%
---------------------------------------------------
-TOTAL                            610     64    90%
-
-======================== 17 passed, 3 warnings in 1.12s ========================
+![Uploading image.png…]()
 
