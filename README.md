@@ -31,7 +31,7 @@ Content-Type: application/json
 }
 ```
 ### 2. Получение токена
-```http
+```bash
 POST /auth/token
 Content-Type: application/x-www-form-urlencoded
 
