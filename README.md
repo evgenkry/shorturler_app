@@ -57,6 +57,8 @@ docker-compose up --build
 ```
 После запуска API будет доступен по адресу: http://localhost:8000/docs (Swagger)
 
+![Доказательство, что все работает](docker.png)
+
 ## Описание базы данных
 ### Таблица `users`
 
