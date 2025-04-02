@@ -59,6 +59,8 @@ docker-compose up --build
 
 ![Доказательство, что все работает](docker.png)
 
+![Swagger](swagger.png)
+
 ## Описание базы данных
 ### Таблица `users`
 
